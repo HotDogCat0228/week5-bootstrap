@@ -1,0 +1,492 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="p-3 d-flex flex-column container-fluid" style="width: 920px;">
+<div class="d-flex justify-content-between mb-5">
+    <div class="d-flex">
+      <h2 class="me-5 mb-0">Admin</h2>        
+      <a class="fs-5 d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#AddAdmin"><span class="material-symbols-outlined text-success">
+        add
+        </span>Add New Admin</a>           
+    </div>
+    <div class="d-flex align-items-center">
+      <a class="me-3" href=""><span class="material-icons align-middle">
+        search
+        </span></a>
+      <a href=""><span class="material-icons align-middle">
+        notifications
+        </span></a>
+    </div>
+</div>
+<div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col" class="">ID
+            </th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Verified</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="mb-63">
+          <tr>
+            <th scope="row">#1</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#"  data-bs-toggle="modal" data-bs-target="#viewAdmin">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#"  data-bs-toggle="modal" data-bs-target="#editAdmin">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#2</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#3</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#4</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#" >
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#5</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#6</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#7</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#8</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#9</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">#10</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="d-flex justify-content-end">
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success me-3 d-inline-block align-middle">
+                visibility
+                </span>
+                </a>
+                <a class="d-inline-block align-middle" href="#">
+                <span class="material-symbols-outlined text-success">
+                edit
+                </span>
+                </a>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-end">
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-success" for="btnradio1"><</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio2">1</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio3">2</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio4">3</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio5">></label>
+    </div>
+    </div>
+</div>
+</div>
+<!--視窗功能-->
+
+<!-- 查看使用者 -->
+<div class="modal fade" id="viewAdmin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!--視窗內容 -->
+        <div class="modal-body" style="padding: 32px;">
+          <div class="d-flex">
+            <img src="./assets/images/emir.jpeg" style="width: 141px; height: 141px; margin-right: 24px;" alt="">
+            <div>
+                <div class="d-flex justify-content-between" style="width: 269px;">
+                <p class="fs-5 mb-1">#1</p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <p class="fs-5 mb-0">Admin</p>
+                <p class="fs-3 mb-1" style="font-weight: 700;">Emir Wicks</p>
+                <p class="fs-14 text-secondary" style="margin-bottom: 20px;">emir.wicks@mail.com</p>
+                <button button class="accordion-button p-0 accordion-button-setting" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Verified
+                </button>
+                <div class="collapse" id="collapseOne">
+                    <div class="pt-3 d-flex justify-content-between">
+                    <button type="button" class="btn btn-outline-danger" >Deactivate</button>
+                    <button type="button" class="btn btn-success">Edit</button>
+                    </div>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- 編輯使用者 -->
+<div class="modal fade" id="editAdmin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+            <!--視窗標題 -->
+          <h5 class="modal-title" id="staticBackdropLabel">Edit Admin</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!--視窗內容 -->
+        <div class="modal-body" style="width: 416px; margin: 0 auto;">
+            <form>
+                <!-- Account -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Account</h2>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" value="Emir Wicks" disabled>                 
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                  <label for="exampleInputPassword1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail" value="emir.wicks@mail.com" disabled>
+                </div>
+                <!-- Verification -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Verification</h2>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="fs-6">Verified</p>
+                    <p class="fs-14">2020/4/12</p>                   
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                    <button type="button" class="btn btn btn-outline-secondary" disabled style="width: 100%;">Send Verification Mail</button>
+                </div>
+
+                <!-- Access Level -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Access Level</h2>
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Admin</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+
+                <!-- Custom Access -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Custom Access</h2>                  
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Lectrue
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Coupon
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Message
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Setting
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Task Menu
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Deactivate Account -->
+                <div>
+                    <div class="mb-3">
+                        <h2 class="fs-5">Deactivate Account</h2>                  
+                    </div>
+                    <!-- loading icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </symbol>
+                        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                        </symbol>
+                        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </symbol>
+                      </svg>          
+                    <!--設置提示-->           
+                      <div class="alert alert-danger d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                            This cannot be undone!
+                        </div>
+                      </div>
+                        <div class="mb-3 pb-4">
+                            <button type="button" class="btn btn btn-outline-danger" style="font-weight: 700; width: 100%;" disabled style="width: 100%;">Deactivate This Account</button>
+                        </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancle</button>
+          <button type="button" class="btn btn-success">Update</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- 註冊使用者 -->
+<div class="modal fade" id="AddAdmin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+            <!--視窗標題 -->
+          <h5 class="modal-title" id="staticBackdropLabel">Edit Admin</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!--視窗內容 -->
+        <div class="modal-body" style="width: 416px; margin: 0 auto;">
+            <form>
+                <!-- Account -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Account</h2>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">                 
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                  <label for="exampleInputPassword1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail">
+                </div>
+                <!-- Verification -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Verification</h2>
+                </div>
+                <div class="alert alert-danger d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                    <div>
+                        Unverified
+                    </div>
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                    <button type="button" class="btn btn-outline-success" style="width: 100%;">Send Verification Mail</button>
+                </div>
+
+                <!-- Access Level -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Access Level</h2>
+                </div>
+                <div class="mb-3 pb-4 border-bottom boder-secondary">
+                    <select class="form-select text-secondary" aria-label="Default select example">
+                        <option selected>-Choose access level-</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+
+                <!-- Custom Access -->
+                <div class="mb-3">
+                    <h2 class="fs-5">Custom Access</h2>                  
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Lectrue
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Coupon
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Message
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Setting
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Task Menu
+                    </label>
+                  </div>
+                </div>        
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cancle</button>
+          <button type="button" class="btn btn-success">Add</button>
+        </div>
+      </div>
+    </div>
+</div>

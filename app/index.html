@@ -1,0 +1,181 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="p-3 d-flex flex-column container-fluid" style="width: 920px;">
+<div class="d-flex justify-content-between mb-5">
+  <div class="d-flex">
+    <h2 class="me-5 mb-0">Assignment</h2>
+      <div class="col-auto ms-50 me-auto d-flex">
+        <select class="select form-select ps-0 py-0 lh-sm border-0 fw-bold align-items-center">
+          <option selected>All Courses</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>   
+  </div>
+  <div class="d-flex">
+    <a class="me-3" href=""><span class="material-icons align-middle">
+      search
+      </span></a>
+    <a href=""><span class="material-icons align-middle">
+      notifications
+      </span></a>
+  </div>
+</div>
+<div class="d-flex justify-content-between mb-1">
+  <select class="select form-select ps-0 py-0 lh-sm border-0 fw-bold align-items-center" style="width: 74px;">
+    <option selected>All(4)</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+    <option value="4">Four</option>
+  </select>
+  <p class="fs-6 text-dark mb-0">2 comments</p>
+</div>
+<div class="d-flex justify-content-between">
+    <div class="list-group me-3 bg-light" id="list-tab" role="tablist" style="width: 320px;">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+        <div class="d-flex mb-1 justify-content-between">
+          <p class="fs-12 mb-0 text-dark">Chapter Assignment 2</p>
+          <p class="fs-12 mb-0 text-dark">4 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fs-6 text-dark mb-0 fw-bold">Please check this file…</p>
+          <p class="fs-12 mb-0 d-flex align-items-center" style="color:#6C757D;">Emily Wang</p>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+        <div class="d-flex mb-1 justify-content-between">
+          <p class="fs-12 mb-0 text-dark">Chapter Assignment 1</p>
+          <p class="fs-12 mb-0 text-dark">12 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fs-6 text-dark mb-0 fw-bold">My Homework</p>
+          <p class="fs-12 mb-0 d-flex align-items-center" style="color:#6C757D;">David Xu</p>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+        <div class="d-flex mb-1 justify-content-between">
+          <p class="fs-12 mb-0 text-dark">Final Assignment</p>
+          <p class="fs-12 mb-0 text-dark">18 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fs-6 text-dark mb-0 fw-bold">Have a problem with this…</p>
+          <p class="fs-12 mb-0 d-flex align-items-center" style="color:#6C757D;">Tony Wei</p>
+        </div>
+      </a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+        <div class="d-flex mb-1 justify-content-between">
+          <p class="fs-12 mb-0 text-dark">Final Assignment</p>
+          <p class="fs-12 mb-0 text-dark">19 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p class="fs-6 text-dark mb-0 fw-bold">Did I do it right?</p>
+          <p class="fs-12 mb-0 d-flex align-items-center" style="color:#6C757D;">Christina Lin</p>
+        </div>
+      </a>
+    </div>
+    <div>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+        <div class="card w-100 mb-3">
+          <div class="card-header d-flex justify-content-between">
+            <div>
+            <p class="fs-12 mb-1">Chapter Assignment 2 / HTML&CSS</p>
+            <p class="fs-6 fw-bold mb-0">Please check this file for me, thanks!</p>
+            </div>
+            <div class="d-flex align-items-center">
+            <a href="#"><span class="material-symbols-outlined">more_vert</span></a>
+            </div>
+          </div>
+          <div class="card-body pb-0">
+            <div class="mb-3">
+              <div class="d-flex">
+                <img class="me-2 rounded-circle" src="./assets/images/emilywang.jpeg" style="width: 40px; height: 40px;" alt="">
+                <div>
+                  <h2 class="mb-0" style="font-size: 14px; font-weight: bold;">Andy Chen</h2>
+                  <p class="mb-0" style="font-size: 14px;">10:38 AM (4 hours ago)</p>
+                </div>
+              </div>
+            </div>
+            <div class="container border-bottom">
+              <p class="fs-14 mb-3">
+                Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?
+              </p>
+              <a class="btn btn-light border mb-3" role="button"><span class="material-symbols-outlined icon-fill d-inline-block align-middle">attach_file</span>HW-2-David.zip</a>
+            </div>
+          </div>
+          <div class="card-body" id="div1">
+          <div class="d-flex justify-content-between mb-3">
+            <div class="d-flex">
+              <img class="me-2 rounded-circle" src="./assets/images/andychen.jpeg" style="width: 40px; height: 40px;" alt="">
+              <div>
+                <h2 class="mb-0" style="font-size: 14px; font-weight: bold;">Andy Chen</h2>
+                <p class="mb-0" style="font-size: 14px;">10:38 AM (4 hours ago)</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <a class="me-3" href=""><span class="material-icons align-middle">
+                search
+                </span></a>
+              <a href=""><span class="material-icons align-middle">
+                notifications
+                </span></a>
+            </div>
+          </div>
+          <div class="container">
+            Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can:<br> 　• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or<br> 　• change the display so it isn’t inline.
+          </div>
+          </div>
+          <div class="collapse" id="myDiv">
+            <div class="card-header d-flex">
+              <select class="form-select border-0 bg-light me-4" style="width: 120px;" aria-label="Default select example">
+                <option selected>Body Text</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <a class="d-flex align-items-center me-4" href=""><span class="material-symbols-outlined">format_bold</span></a>
+              <a class="d-flex align-items-center me-4" href=""><span class="material-symbols-outlined">format_italic</span></a>
+              <a class="d-flex align-items-center me-4" href=""><span class="material-symbols-outlined">grading</span></a>
+              <a class="d-flex align-items-center me-4" href=""><span class="material-symbols-outlined">edit</span></a>
+              <a class="d-flex align-items-center me-4" href=""><span class="material-symbols-outlined">attachment</span></a>
+              <a class="d-flex align-items-center" href=""><span class="material-symbols-outlined ">chevron_left</span><span class="material-symbols-outlined">chevron_right</span></a>
+          </div>            
+          <textarea class="border-light w-100" style="height: 263px;" id="w3review" name="w3review">
+            Reply an answer…               
+          </textarea>
+          <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-outline-success collapsed me-3" id="myButton2" data-bs-toggle="collapse" data-bs-target="#myDiv" aria-controls="#myDiv" aria-expanded="false">Cancel</button>
+            <button type="button" class="btn btn-success">Reply</button>
+            </div>                
+          </div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="d-flex align-items-center">
+            <a href="" class="me-4"><span class="material-icons">
+              navigate_before
+              </span>
+            <a href=""><span class="material-icons">
+              navigate_next
+              </span></a>
+          </div>
+          <div id="div2">
+            <button type="button" class="btn btn-outline-success me-3">Mark as read</button>
+            <button type="button" class="btn btn-success collapsed" id="myButton1" data-bs-toggle="collapse" data-bs-target="#myDiv" aria-controls="#myDiv" aria-expanded="false">Reply</button>
+            <!--彈跳視窗-->           
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+    </div>
+    </div>
+</div>
+
+</div>
