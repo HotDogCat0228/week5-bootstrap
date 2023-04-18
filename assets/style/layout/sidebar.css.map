@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/sidebar.scss"],"names":[],"mappings":"AAAA;EACI,cAAc,EAAA;;AAElB;EACI,wBAAuB,EAAA","file":"sidebar.css","sourcesContent":[".a-hover:hover{\r\n    color: #198754;\r\n}\r\n.p-3{\r\n    padding: 2rem!important;\r\n}"]}
